@@ -1343,3 +1343,908 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.25-17.43.48:783][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maze-1' took 0.017
 [2021.05.25-17.53.49:494][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
 [2021.05.25-17.53.49:495][545]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maze-1' took 0.015
+[2021.05.25-18.04.22:560][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.05.25-18.04.22:562][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maze-1' took 0.018
+[2021.05.25-18.14.22:840][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.05.25-18.14.22:842][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maze-1' took 0.019
+[2021.05.25-18.15.49:359][259]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/danie/Downloads/background music.wav)
+[2021.05.25-18.15.49:410][259]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave background_music...
+[2021.05.25-18.15.49:411][259]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/sound/background_music.background_music will be modified from 40 to 40.
+[2021.05.25-18.15.49:850][259]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 4908520 while cooking SoundWave /Game/sound/background_music.background_music.
+[2021.05.25-18.15.55:200][740]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/maze-1.maze-1:PersistentLevel.maze-1
+[2021.05.25-18.16.05:744][594]LogSlate: Window 'maze-1' being destroyed
+[2021.05.25-18.17.11:030][987]BlueprintLog: New page: Compile maze-1
+[2021.05.25-18.17.11:145][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.05.25-18.17.12:188][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-18.17.12:213][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.05.25-18.17.12:486][ 70]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-1AA0134574C63298BD8F41E9BA18D1FD5.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap'
+[2021.05.25-18.17.12:514][ 70]LogFileHelpers: Saving map 'maze-1' took 0.327
+[2021.05.25-18.17.12:527][ 70]AssetCheck: New page: Asset Save: maze-1
+[2021.05.25-18.17.12:528][ 70]LogContentValidation: Display: Validating World /Game/maze-1.maze-1
+[2021.05.25-18.17.14:590][271]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-18.17.14:618][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-18.17.14:618][271]PIE: New page: PIE session: maze-1 (25 May 2021, 20:17:14)
+[2021.05.25-18.17.14:656][271]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-18.17.14:810][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153803s)
+[2021.05.25-18.17.14:822][271]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-18.17.14:825][271]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F0C26E400), frame # 266271
+[2021.05.25-18.17.14:828][271]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F39E7D300), frame # 266271
+[2021.05.25-18.17.14:830][271]LogPlayLevel: PIE: World Init took: (0.019641s)
+[2021.05.25-18.17.14:830][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.174675s)
+[2021.05.25-18.17.14:852][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-18.17.14:859][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-18.17.14:860][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-18.17.14:864][271]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-18.17.14:864][271]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-18.17.14:870][271]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-18.17.14:870][271]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-18.17.14:957][271]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-18.17.14:958][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-18.17.14:958][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-18.17.14:958][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-18.17.14:961][271]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-18.17.14:976][271]LogInit: FAudioDevice initialized.
+[2021.05.25-18.17.15:010][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-18.17.15:052][271]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-19.17.15
+[2021.05.25-18.17.15:054][271]LogWorld: Bringing up level for play took: 0.028759
+[2021.05.25-18.17.15:062][271]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.05.25-18.17.15:125][271]PIE: Server logged in
+[2021.05.25-18.17.15:126][271]PIE: Play in editor total start time 0.521 seconds.
+[2021.05.25-18.17.24:047][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.17.24:047][319]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-18.17.24:054][319]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-18.17.24:058][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.17.24:068][319]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-18.17.24:073][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.17.24:116][319]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.17.24:133][319]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F39E7D300), frame # 267319
+[2021.05.25-18.17.24:134][319]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F0C26E400), frame # 267319
+[2021.05.25-18.17.24:140][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.05.25-18.17.24:169][320]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.05.25-18.17.25:437][438]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/sound/background_music.background_music
+[2021.05.25-18.17.34:703][449]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-18.17.34:718][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-18.17.34:718][449]PIE: New page: PIE session: maze-1 (25 May 2021, 20:17:34)
+[2021.05.25-18.17.34:747][449]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-18.17.34:823][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075508s)
+[2021.05.25-18.17.34:824][449]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-18.17.34:824][449]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F3548BE00), frame # 268449
+[2021.05.25-18.17.34:824][449]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E80DF0F40), frame # 268449
+[2021.05.25-18.17.34:824][449]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2021.05.25-18.17.34:824][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.077117s)
+[2021.05.25-18.17.34:845][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-18.17.34:846][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-18.17.34:846][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-18.17.34:847][449]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-18.17.34:847][449]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-18.17.34:850][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-18.17.34:850][449]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-18.17.34:933][449]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-18.17.34:933][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-18.17.34:933][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-18.17.34:933][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-18.17.34:934][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-18.17.34:946][449]LogInit: FAudioDevice initialized.
+[2021.05.25-18.17.34:958][449]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-18.17.34:965][449]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-19.17.34
+[2021.05.25-18.17.34:966][449]LogWorld: Bringing up level for play took: 0.007740
+[2021.05.25-18.17.34:966][449]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.05.25-18.17.34:971][449]PIE: Server logged in
+[2021.05.25-18.17.34:972][449]PIE: Play in editor total start time 0.256 seconds.
+[2021.05.25-18.18.08:690][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.18.08:690][439]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-18.18.08:690][439]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-18.18.08:692][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.18.08:699][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-18.18.08:702][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.18.08:741][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.18.08:743][439]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E80DF0F40), frame # 272439
+[2021.05.25-18.18.08:743][439]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F3548BE00), frame # 272439
+[2021.05.25-18.18.08:746][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2021.05.25-18.18.08:771][440]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.05.25-18.18.16:329][247]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-18.18.16:343][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-18.18.16:343][247]PIE: New page: PIE session: maze-1 (25 May 2021, 20:18:16)
+[2021.05.25-18.18.16:367][247]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-18.18.16:439][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071710s)
+[2021.05.25-18.18.16:439][247]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-18.18.16:439][247]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F485B1800), frame # 273247
+[2021.05.25-18.18.16:439][247]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F1177C680), frame # 273247
+[2021.05.25-18.18.16:440][247]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2021.05.25-18.18.16:440][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072830s)
+[2021.05.25-18.18.16:460][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-18.18.16:461][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-18.18.16:461][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-18.18.16:462][247]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-18.18.16:462][247]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-18.18.16:464][247]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-18.18.16:464][247]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-18.18.16:550][247]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-18.18.16:550][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-18.18.16:550][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-18.18.16:550][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-18.18.16:550][247]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-18.18.16:563][247]LogInit: FAudioDevice initialized.
+[2021.05.25-18.18.16:573][247]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-18.18.16:581][247]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-19.18.16
+[2021.05.25-18.18.16:582][247]LogWorld: Bringing up level for play took: 0.007977
+[2021.05.25-18.18.16:582][247]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.05.25-18.18.16:587][247]PIE: Server logged in
+[2021.05.25-18.18.16:588][247]PIE: Play in editor total start time 0.247 seconds.
+[2021.05.25-18.19.20:471][840]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=279.60 Y=-23.07 Z=0.00 Location: X=4403.36 Y=3863.79 Z=233.01 Normal: X=-0.71 Y=-0.71 Z=-0.00 PenetrationDepth:0.462 Actor:moveable_box_BP9_14 Component:cube BoneName:None (0 other events since notify)
+[2021.05.25-18.19.29:080][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.19.29:080][868]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-18.19.29:081][868]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-18.19.29:082][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.19.29:090][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-18.19.29:094][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-18.19.29:113][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-18.19.29:133][868]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F1177C680), frame # 281868
+[2021.05.25-18.19.29:133][868]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F485B1800), frame # 281868
+[2021.05.25-18.19.29:136][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.05.25-18.19.29:163][869]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.05.25-18.19.31:123][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-18.19.31:144][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.05.25-18.19.31:365][ 92]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-127D8588B4C98ECB0D7AF1EAA4BEA9908.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap'
+[2021.05.25-18.19.31:391][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1_BuiltData" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset" SILENT=true
+[2021.05.25-18.19.31:579][ 92]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-1_BuiltData133FC98046F951B0BCCF34BEF6A73D4B.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset'
+[2021.05.25-18.19.31:593][ 92]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.25-18.19.31:593][ 92]LogContentValidation: Display: Validating World /Game/maze-1.maze-1
+[2021.05.25-18.19.31:593][ 92]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/maze-1_BuiltData.maze-1_BuiltData
+[2021.05.25-18.19.32:748][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.05.25-18.19.34:080][216]LogSlate: Window 'Save Content' being destroyed
+[2021.05.25-18.19.34:109][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sound/background_music" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/sound/background_music.uasset" SILENT=true
+[2021.05.25-18.19.34:115][216]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/background_musicB6FFA5674806DF49B513F795DE393B70.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/sound/background_music.uasset'
+[2021.05.25-18.19.34:125][216]AssetCheck: New page: Asset Save: background_music
+[2021.05.25-18.19.34:125][216]LogContentValidation: Display: Validating SoundWave /Game/sound/background_music.background_music
+[2021.05.25-19.40.00:532][430]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/danie/Downloads/pause.wav)
+[2021.05.25-19.40.00:538][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave pause...
+[2021.05.25-19.40.00:539][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/sound/pause.pause will be modified from 40 to 40.
+[2021.05.25-19.40.00:576][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 276948 while cooking SoundWave /Game/sound/pause.pause.
+[2021.05.25-19.40.10:997][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.05.25-19.40.43:181][788]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/menu_assets/mainmenugamemode.mainmenugamemode
+[2021.05.25-19.40.46:614][ 98]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/menu_assets/pause_blueprint.pause_blueprint
+[2021.05.25-19.41.11:367][646]BlueprintLog: New page: Compile pause_blueprint
+[2021.05.25-19.41.11:504][646]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.05.25-19.41.11:961][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/menu_assets/pause_blueprint" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/menu_assets/pause_blueprint.uasset" SILENT=true
+[2021.05.25-19.41.11:980][684]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/pause_blueprintEF6F1D92494B1692CA852C8B9C6402C9.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/menu_assets/pause_blueprint.uasset'
+[2021.05.25-19.41.11:995][684]AssetCheck: New page: Asset Save: pause_blueprint
+[2021.05.25-19.41.11:995][684]LogContentValidation: Display: Validating WidgetBlueprint /Game/menu_assets/pause_blueprint.pause_blueprint
+[2021.05.25-19.41.14:025][854]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.41.14:039][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.41.14:039][854]PIE: New page: PIE session: maze-1 (25 May 2021, 21:41:14)
+[2021.05.25-19.41.14:039][854]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.41.14:119][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080864s)
+[2021.05.25-19.41.14:120][854]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.41.14:120][854]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F8CC01600), frame # 570854
+[2021.05.25-19.41.14:120][854]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E80FCC2C0), frame # 570854
+[2021.05.25-19.41.14:121][854]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2021.05.25-19.41.14:121][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.082169s)
+[2021.05.25-19.41.14:165][854]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.41.14:168][854]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.41.14:168][854]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.41.14:168][854]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.41.14:171][854]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.41.14:171][854]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.41.14:254][854]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.41.14:254][854]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.41.14:254][854]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.41.14:254][854]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.41.14:255][854]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.41.14:268][854]LogInit: FAudioDevice initialized.
+[2021.05.25-19.41.14:281][854]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.41.14:291][854]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.41.14
+[2021.05.25-19.41.14:291][854]LogWorld: Bringing up level for play took: 0.009066
+[2021.05.25-19.41.14:291][854]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.05.25-19.41.14:298][854]PIE: Server logged in
+[2021.05.25-19.41.14:299][854]PIE: Play in editor total start time 0.261 seconds.
+[2021.05.25-19.41.17:891][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.41.17:891][272]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.41.17:892][272]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.41.17:893][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.41.17:899][272]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.41.17:904][272]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.41.17:933][272]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.41.17:953][272]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E80FCC2C0), frame # 571272
+[2021.05.25-19.41.17:953][272]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F8CC01600), frame # 571272
+[2021.05.25-19.41.17:957][272]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.05.25-19.41.17:982][273]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.05.25-19.42.06:465][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.25-19.42.06:467][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/maze-1' took 0.032
+[2021.05.25-19.42.06:468][900]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/menu_assets/pause_blueprint] ([1] browsable assets)...
+[2021.05.25-19.42.06:468][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/menu_assets/pause_blueprint]
+[2021.05.25-19.42.06:483][900]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/pause_blueprint_Auto241C20DF44655303744197FBCD1E84812.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/Autosaves/Game/menu_assets/pause_blueprint_Auto2.uasset'
+[2021.05.25-19.42.06:486][900]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/sound/pause] ([1] browsable assets)...
+[2021.05.25-19.42.06:489][900]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/sound/pause.pause]
+[2021.05.25-19.42.06:489][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/sound/pause]
+[2021.05.25-19.42.06:493][900]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/pause_Auto2CB277A8B4939B156ED4104BAD8E1C556.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/Autosaves/Game/sound/pause_Auto2.uasset'
+[2021.05.25-19.42.06:495][900]LogFileHelpers: Auto-saving content packages took 0.027
+[2021.05.25-19.42.15:362][195]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.25-19.42.39:391][522]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.25-19.42.39:496][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.05.25-19.42.40:204][574]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/ThirdPersonCharacterB94D1E804DD33A9AA0D77B9A74743926.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.25-19.42.40:224][574]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.25-19.42.40:224][574]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.25-19.42.42:192][791]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.42.42:206][791]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.25-19.42.42:214][791]LogPlayLevel: [PlayLevel] Compiling pause_blueprint before play...
+[2021.05.25-19.42.42:278][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.05.25-19.42.42:280][791]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
+[2021.05.25-19.42.42:280][791]PIE: New page: PIE session: maze-1 (25 May 2021, 21:42:42)
+[2021.05.25-19.42.42:320][791]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.42.42:395][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074739s)
+[2021.05.25-19.42.42:396][791]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.42.42:396][791]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020E88378200), frame # 576791
+[2021.05.25-19.42.42:396][791]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F8C82DE40), frame # 576791
+[2021.05.25-19.42.42:396][791]LogPlayLevel: PIE: World Init took: (0.001569s)
+[2021.05.25-19.42.42:397][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.076478s)
+[2021.05.25-19.42.42:427][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.42.42:429][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.42.42:429][791]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.42.42:429][791]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.42.42:431][791]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.42.42:431][791]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.42.42:516][791]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.42.42:516][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.42.42:516][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.42.42:516][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.42.42:516][791]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.42.42:529][791]LogInit: FAudioDevice initialized.
+[2021.05.25-19.42.42:534][791]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.42.42:542][791]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.42.42
+[2021.05.25-19.42.42:543][791]LogWorld: Bringing up level for play took: 0.008069
+[2021.05.25-19.42.42:543][791]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.05.25-19.42.42:548][791]PIE: Server logged in
+[2021.05.25-19.42.42:549][791]PIE: Play in editor total start time 0.345 seconds.
+[2021.05.25-19.43.11:191][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.43.11:191][211]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.43.11:191][211]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.43.11:193][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.43.11:201][211]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.43.11:205][211]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.43.11:237][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.43.11:254][211]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F8C82DE40), frame # 580211
+[2021.05.25-19.43.11:254][211]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020E88378200), frame # 580211
+[2021.05.25-19.43.11:258][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.25-19.43.11:285][212]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.05.25-19.44.04:240][648]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.44.04:254][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.44.04:254][648]PIE: New page: PIE session: maze-1 (25 May 2021, 21:44:04)
+[2021.05.25-19.44.04:254][648]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.44.04:325][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071427s)
+[2021.05.25-19.44.04:326][648]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.44.04:326][648]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F7408AC00), frame # 580648
+[2021.05.25-19.44.04:326][648]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F87F57100), frame # 580648
+[2021.05.25-19.44.04:326][648]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2021.05.25-19.44.04:326][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072506s)
+[2021.05.25-19.44.04:358][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.44.04:359][648]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.44.04:359][648]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.44.04:360][648]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.44.04:360][648]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.44.04:362][648]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.44.04:362][648]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.44.04:446][648]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.44.04:446][648]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.44.04:446][648]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.44.04:446][648]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.44.04:447][648]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.44.04:459][648]LogInit: FAudioDevice initialized.
+[2021.05.25-19.44.04:467][648]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.44.04:477][648]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.44.04
+[2021.05.25-19.44.04:477][648]LogWorld: Bringing up level for play took: 0.009563
+[2021.05.25-19.44.04:477][648]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.05.25-19.44.04:482][648]PIE: Server logged in
+[2021.05.25-19.44.04:483][648]PIE: Play in editor total start time 0.231 seconds.
+[2021.05.25-19.44.05:490][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.44.05:490][760]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.44.05:490][760]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.44.05:492][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.44.05:498][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.44.05:502][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.44.05:549][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.44.05:551][760]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F87F57100), frame # 580760
+[2021.05.25-19.44.05:551][760]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F7408AC00), frame # 580760
+[2021.05.25-19.44.05:554][760]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.05.25-19.44.05:579][761]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.05.25-19.44.12:012][239]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/danie/Downloads/true pause.wav)
+[2021.05.25-19.44.12:016][239]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave true_pause...
+[2021.05.25-19.44.12:016][239]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/sound/true_pause.true_pause will be modified from 40 to 40.
+[2021.05.25-19.44.12:048][239]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 291502 while cooking SoundWave /Game/sound/true_pause.true_pause.
+[2021.05.25-19.44.29:173][810]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.25-19.44.29:244][810]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.05.25-19.44.29:764][846]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/ThirdPersonCharacterD66B14E4434E4AD6559F858C3807C545.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.25-19.44.29:778][846]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.25-19.44.29:778][846]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.25-19.44.33:742][247]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.05.25-19.44.36:649][247]LogSlate: Window 'Delete Assets' being destroyed
+[2021.05.25-19.44.37:190][247]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/sound/pause.pause
+[2021.05.25-19.44.38:176][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.05.25-19.44.39:455][363]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.44.39:469][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.44.39:469][363]PIE: New page: PIE session: maze-1 (25 May 2021, 21:44:39)
+[2021.05.25-19.44.39:470][363]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.44.39:544][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073892s)
+[2021.05.25-19.44.39:544][363]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.44.39:545][363]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F73A07400), frame # 583363
+[2021.05.25-19.44.39:545][363]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F18A3EC00), frame # 583363
+[2021.05.25-19.44.39:545][363]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2021.05.25-19.44.39:545][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.075067s)
+[2021.05.25-19.44.39:577][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.44.39:578][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.44.39:578][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.44.39:579][363]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.44.39:579][363]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.44.39:581][363]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.44.39:581][363]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.44.39:664][363]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.44.39:664][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.44.39:664][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.44.39:664][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.44.39:664][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.44.39:678][363]LogInit: FAudioDevice initialized.
+[2021.05.25-19.44.39:686][363]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.44.39:694][363]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.44.39
+[2021.05.25-19.44.39:694][363]LogWorld: Bringing up level for play took: 0.007252
+[2021.05.25-19.44.39:694][363]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.05.25-19.44.39:700][363]PIE: Server logged in
+[2021.05.25-19.44.39:701][363]PIE: Play in editor total start time 0.233 seconds.
+[2021.05.25-19.44.59:760][754]LogNet: Browse: /Game/maze-1
+[2021.05.25-19.44.59:761][754]LogLoad: LoadMap: /Game/maze-1
+[2021.05.25-19.44.59:761][754]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.44.59:763][754]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.44.59:764][754]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.44.59:821][754]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F18A3EC00), frame # 585754
+[2021.05.25-19.44.59:821][754]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F73A07400), frame # 585754
+[2021.05.25-19.44.59:825][754]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.05.25-19.44.59:827][754]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.44.59:897][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070655s)
+[2021.05.25-19.44.59:898][754]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.44.59:898][754]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F73A07600), frame # 585754
+[2021.05.25-19.44.59:898][754]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F18D9EE80), frame # 585754
+[2021.05.25-19.44.59:898][754]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2021.05.25-19.44.59:898][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.071833s)
+[2021.05.25-19.44.59:898][754]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.44.59:905][754]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.44.59
+[2021.05.25-19.44.59:905][754]LogWorld: Bringing up level for play took: 0.005750
+[2021.05.25-19.44.59:910][754]LogLoad: Took 0.149340 seconds to LoadMap(/Game/UEDPIE_0_maze-1)
+[2021.05.25-19.45.01:261][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.45.01:261][911]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.45.01:261][911]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.45.01:263][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.45.01:268][911]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.45.01:273][911]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.45.01:302][911]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.45.01:323][911]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F18D9EE80), frame # 585911
+[2021.05.25-19.45.01:323][911]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F73A07600), frame # 585911
+[2021.05.25-19.45.01:327][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2021.05.25-19.45.01:351][912]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.05.25-19.46.26:023][780]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.25-19.46.26:101][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.05.25-19.46.38:415][157]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.05.25-19.46.38:490][157]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2021.05.25-19.46.39:547][253]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/ThirdPersonCharacter029573FE44668784B964BD9C8221B94D.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.05.25-19.46.39:558][253]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.05.25-19.46.39:558][253]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.05.25-19.47.46:383][827]LogSlate: Took 0.009365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.25-19.51.21:071][569]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.51.21:130][569]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.05.25-19.52.14:605][452]BlueprintLog: New page: Compile maze-1
+[2021.05.25-19.52.14:668][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.25-19.52.15:811][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-19.52.15:844][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.05.25-19.52.16:080][553]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-1A9D2E873408C44FC8BF89893F2CDEFE7.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap'
+[2021.05.25-19.52.16:105][553]LogFileHelpers: Saving map 'maze-1' took 0.295
+[2021.05.25-19.52.16:118][553]AssetCheck: New page: Asset Save: maze-1
+[2021.05.25-19.52.16:118][553]LogContentValidation: Display: Validating World /Game/maze-1.maze-1
+[2021.05.25-19.52.51:903][611]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.52.51:958][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.05.25-19.52.52:509][658]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/ThirdPersonGameModeA37DB3984028E366F02D418C129133F8.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2021.05.25-19.52.52:527][658]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2021.05.25-19.52.52:527][658]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.05.25-19.52.55:604][981]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.52.55:618][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.52.55:618][981]PIE: New page: PIE session: maze-1 (25 May 2021, 21:52:55)
+[2021.05.25-19.52.55:619][981]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.52.55:691][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072393s)
+[2021.05.25-19.52.55:692][981]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.52.55:692][981]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F116E9E00), frame # 634981
+[2021.05.25-19.52.55:692][981]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F8C82CA40), frame # 634981
+[2021.05.25-19.52.55:692][981]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2021.05.25-19.52.55:692][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.073591s)
+[2021.05.25-19.52.55:726][981]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.52.55:727][981]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.52.55:727][981]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.52.55:728][981]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.52.55:728][981]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.52.55:730][981]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.52.55:730][981]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.52.55:815][981]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.52.55:815][981]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.52.55:815][981]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.52.55:815][981]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.52.55:816][981]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.52.55:828][981]LogInit: FAudioDevice initialized.
+[2021.05.25-19.52.55:840][981]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.52.55:847][981]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.52.55
+[2021.05.25-19.52.55:848][981]LogWorld: Bringing up level for play took: 0.007504
+[2021.05.25-19.52.55:848][981]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.05.25-19.52.55:853][981]PIE: Server logged in
+[2021.05.25-19.52.55:854][981]PIE: Play in editor total start time 0.238 seconds.
+[2021.05.25-19.53.11:569][857]LogNet: Browse: /Game/maze-1
+[2021.05.25-19.53.11:569][857]LogLoad: LoadMap: /Game/maze-1
+[2021.05.25-19.53.11:569][857]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.11:570][857]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.53.11:571][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.11:633][857]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F116E9E00), frame # 636857
+[2021.05.25-19.53.11:634][857]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F8C82CA40), frame # 636857
+[2021.05.25-19.53.11:636][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.05.25-19.53.11:638][857]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.11:711][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072732s)
+[2021.05.25-19.53.11:712][857]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.53.11:712][857]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F116EB800), frame # 636857
+[2021.05.25-19.53.11:712][857]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F245347C0), frame # 636857
+[2021.05.25-19.53.11:712][857]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2021.05.25-19.53.11:712][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.073912s)
+[2021.05.25-19.53.11:712][857]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.53.11:718][857]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.53.11
+[2021.05.25-19.53.11:719][857]LogWorld: Bringing up level for play took: 0.005983
+[2021.05.25-19.53.11:723][857]LogLoad: Took 0.153565 seconds to LoadMap(/Game/UEDPIE_0_maze-1)
+[2021.05.25-19.53.12:789][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.53.12:789][981]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.12:790][981]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.53.12:791][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.12:798][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.53.12:802][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.12:832][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.53.12:859][981]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F245347C0), frame # 636981
+[2021.05.25-19.53.12:859][981]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F116EB800), frame # 636981
+[2021.05.25-19.53.12:863][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.25-19.53.12:887][982]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.05.25-19.53.31:121][ 21]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.53.31:176][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.05.25-19.53.33:353][261]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.53.33:367][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.53.33:367][261]PIE: New page: PIE session: maze-1 (25 May 2021, 21:53:33)
+[2021.05.25-19.53.33:368][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.33:443][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075114s)
+[2021.05.25-19.53.33:444][261]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.53.33:444][261]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020FB1B97200), frame # 639261
+[2021.05.25-19.53.33:444][261]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020FAFAA34C0), frame # 639261
+[2021.05.25-19.53.33:444][261]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2021.05.25-19.53.33:444][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.076187s)
+[2021.05.25-19.53.33:476][261]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.53.33:477][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.53.33:477][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.53.33:478][261]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.53.33:478][261]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.53.33:480][261]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.53.33:480][261]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.53.33:562][261]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.53.33:562][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.53.33:562][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.53.33:562][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.53.33:562][261]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.53.33:575][261]LogInit: FAudioDevice initialized.
+[2021.05.25-19.53.33:583][261]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.53.33:591][261]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.53.33
+[2021.05.25-19.53.33:592][261]LogWorld: Bringing up level for play took: 0.007433
+[2021.05.25-19.53.33:592][261]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.05.25-19.53.33:598][261]PIE: Server logged in
+[2021.05.25-19.53.33:598][261]PIE: Play in editor total start time 0.232 seconds.
+[2021.05.25-19.53.43:332][421]LogScript: Warning: Accessed None trying to read property musiccomponent
+	maze-1_C /Game/UEDPIE_0_maze-1.maze-1:PersistentLevel.maze-1_C_2
+	Function /Game/maze-1.maze-1_C:ExecuteUbergraph_maze-1:0015
+[2021.05.25-19.53.43:333][421]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property musiccomponent". Blueprint:  maze-1 Function:  Execute Ubergraph Maze-1 Graph:  EventGraph Node:  Stop
+[2021.05.25-19.53.50:301][257]LogNet: Browse: /Game/maze-1
+[2021.05.25-19.53.50:301][257]LogLoad: LoadMap: /Game/maze-1
+[2021.05.25-19.53.50:301][257]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.50:302][257]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.53.50:303][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.50:375][257]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020FAFAA34C0), frame # 641257
+[2021.05.25-19.53.50:375][257]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020FB1B97200), frame # 641257
+[2021.05.25-19.53.50:379][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.05.25-19.53.50:381][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.50:453][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071890s)
+[2021.05.25-19.53.50:454][257]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.53.50:454][257]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F4E878400), frame # 641257
+[2021.05.25-19.53.50:454][257]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020FB10FD800), frame # 641257
+[2021.05.25-19.53.50:454][257]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2021.05.25-19.53.50:454][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.073229s)
+[2021.05.25-19.53.50:454][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.53.50:461][257]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.53.50
+[2021.05.25-19.53.50:461][257]LogWorld: Bringing up level for play took: 0.006002
+[2021.05.25-19.53.50:465][257]LogLoad: Took 0.163856 seconds to LoadMap(/Game/UEDPIE_0_maze-1)
+[2021.05.25-19.53.52:281][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.53.52:281][469]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.53.52:281][469]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.53.52:282][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.52:291][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.53.52:295][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.53.52:344][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.53.52:346][469]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020FB10FD800), frame # 641469
+[2021.05.25-19.53.52:346][469]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F4E878400), frame # 641469
+[2021.05.25-19.53.52:349][469]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.05.25-19.53.52:448][470]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.05.25-19.53.53:849][593]LogSlate: Window 'Message Log' being destroyed
+[2021.05.25-19.53.53:852][593]LogSlate: Window 'Message Log' being destroyed
+[2021.05.25-19.54.17:504][225]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.54.17:556][225]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.05.25-19.54.19:203][368]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.54.19:217][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.54.19:217][368]PIE: New page: PIE session: maze-1 (25 May 2021, 21:54:19)
+[2021.05.25-19.54.19:217][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.19:289][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071269s)
+[2021.05.25-19.54.19:289][368]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.54.19:289][368]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F72D4DA00), frame # 644368
+[2021.05.25-19.54.19:289][368]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F24D4AFC0), frame # 644368
+[2021.05.25-19.54.19:290][368]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2021.05.25-19.54.19:290][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072334s)
+[2021.05.25-19.54.19:324][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.05.25-19.54.19:324][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.54.19:324][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.54.19:324][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.54.19:324][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.54.19:325][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.54.19:325][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.54.19:325][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.54.19:325][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.54.19:325][368]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.54.19:325][368]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.54.19:327][368]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.54.19:327][368]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.54.19:410][368]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.54.19:410][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.54.19:410][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.54.19:410][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.54.19:411][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.54.19:411][368]LogInit: FAudioDevice initialized.
+[2021.05.25-19.54.19:426][368]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.54.19:434][368]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.54.19
+[2021.05.25-19.54.19:434][368]LogWorld: Bringing up level for play took: 0.007766
+[2021.05.25-19.54.19:434][368]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.05.25-19.54.19:440][368]PIE: Server logged in
+[2021.05.25-19.54.19:440][368]PIE: Play in editor total start time 0.225 seconds.
+[2021.05.25-19.54.30:359][661]LogNet: Browse: /Game/maze-1
+[2021.05.25-19.54.30:359][661]LogLoad: LoadMap: /Game/maze-1
+[2021.05.25-19.54.30:359][661]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.30:360][661]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.54.30:361][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.30:432][661]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F24D4AFC0), frame # 645661
+[2021.05.25-19.54.30:432][661]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F72D4DA00), frame # 645661
+[2021.05.25-19.54.30:436][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.05.25-19.54.30:438][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.30:510][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071845s)
+[2021.05.25-19.54.30:511][661]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.54.30:511][661]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020E9697F000), frame # 645661
+[2021.05.25-19.54.30:511][661]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E932B1F80), frame # 645661
+[2021.05.25-19.54.30:511][661]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2021.05.25-19.54.30:511][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072923s)
+[2021.05.25-19.54.30:511][661]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.54.30:517][661]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.54.30
+[2021.05.25-19.54.30:518][661]LogWorld: Bringing up level for play took: 0.006046
+[2021.05.25-19.54.30:522][661]LogLoad: Took 0.162191 seconds to LoadMap(/Game/UEDPIE_0_maze-1)
+[2021.05.25-19.54.31:600][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.54.31:600][778]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.31:601][778]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.54.31:601][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.31:605][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.54.31:610][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.31:659][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.54.31:661][778]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E932B1F80), frame # 645778
+[2021.05.25-19.54.31:661][778]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020E9697F000), frame # 645778
+[2021.05.25-19.54.31:664][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.05.25-19.54.31:688][779]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.05.25-19.54.43:705][ 95]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.54.43:761][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.05.25-19.54.45:370][247]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.54.45:383][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.54.45:384][247]PIE: New page: PIE session: maze-1 (25 May 2021, 21:54:45)
+[2021.05.25-19.54.45:418][247]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.45:490][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071626s)
+[2021.05.25-19.54.45:490][247]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.54.45:490][247]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020F18D43E00), frame # 647247
+[2021.05.25-19.54.45:490][247]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F0C58D800), frame # 647247
+[2021.05.25-19.54.45:491][247]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2021.05.25-19.54.45:491][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072714s)
+[2021.05.25-19.54.45:525][247]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.54.45:526][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.54.45:526][247]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.54.45:526][247]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.54.45:528][247]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.54.45:528][247]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.54.45:622][247]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.54.45:622][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.54.45:622][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.54.45:622][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.54.45:622][247]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.54.45:633][247]LogInit: FAudioDevice initialized.
+[2021.05.25-19.54.45:642][247]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.54.45:650][247]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.54.45
+[2021.05.25-19.54.45:650][247]LogWorld: Bringing up level for play took: 0.007530
+[2021.05.25-19.54.45:650][247]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.05.25-19.54.45:655][247]PIE: Server logged in
+[2021.05.25-19.54.45:656][247]PIE: Play in editor total start time 0.275 seconds.
+[2021.05.25-19.54.51:040][885]LogNet: Browse: /Game/maze-1
+[2021.05.25-19.54.51:040][885]LogLoad: LoadMap: /Game/maze-1
+[2021.05.25-19.54.51:040][885]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.51:040][885]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.54.51:042][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.51:101][885]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F0C58D800), frame # 647885
+[2021.05.25-19.54.51:101][885]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020F18D43E00), frame # 647885
+[2021.05.25-19.54.51:104][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.05.25-19.54.51:106][885]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.51:177][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071048s)
+[2021.05.25-19.54.51:178][885]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.54.51:178][885]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020FBA0C9A00), frame # 647885
+[2021.05.25-19.54.51:178][885]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020F8CBE3240), frame # 647885
+[2021.05.25-19.54.51:178][885]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2021.05.25-19.54.51:178][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072219s)
+[2021.05.25-19.54.51:179][885]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.54.51:184][885]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.54.51
+[2021.05.25-19.54.51:185][885]LogWorld: Bringing up level for play took: 0.005614
+[2021.05.25-19.54.51:189][885]LogLoad: Took 0.149092 seconds to LoadMap(/Game/UEDPIE_0_maze-1)
+[2021.05.25-19.54.51:669][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.54.51:670][937]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.54.51:670][937]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.54.51:671][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.51:682][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.54.51:686][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.54.51:734][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.54.51:736][937]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020F8CBE3240), frame # 647937
+[2021.05.25-19.54.51:736][937]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020FBA0C9A00), frame # 647937
+[2021.05.25-19.54.51:740][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.05.25-19.54.51:764][938]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.05.25-19.55.05:488][474]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2021.05.25-19.55.05:541][474]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.05.25-19.55.06:524][563]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/ThirdPersonGameMode531D6138492BD8B921BAC58B027FFC85.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2021.05.25-19.55.06:539][563]AssetCheck: New page: Asset Save: ThirdPersonGameMode
+[2021.05.25-19.55.06:539][563]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2021.05.25-19.55.26:025][578]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/obsticals/death.death
+[2021.05.25-19.56.23:539][806]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.56.23:553][806]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.25-19.56.23:554][806]LogPlayLevel: [PlayLevel] Compiling death before play...
+[2021.05.25-19.56.23:555][806]LogBlueprint: Error: [Compiler death] This blueprint (self) is not a ThirdPersonGameMode_C, therefore ' Target ' must have a connection.
+[2021.05.25-19.56.23:557][806]LogBlueprint: Error: [Compiler death] Variable node  Set playbackground2  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.05.25-19.56.23:623][806]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.05.25-19.56.23:626][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2021.05.25-19.56.23:626][806]BlueprintLog: Warning: Blueprint failed to compile:  death
+[2021.05.25-19.56.23:628][806]LogCustomDialog: Dialog displayed:
+[2021.05.25-19.56.33:712][806]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.05.25-19.56.35:565][997]LogSlate: Window 'Message Log' being destroyed
+[2021.05.25-19.56.35:568][997]LogSlate: Window 'Message Log' being destroyed
+[2021.05.25-19.57.07:020][460]BlueprintLog: New page: Compile death
+[2021.05.25-19.57.07:074][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.05.25-19.57.07:857][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/obsticals/death" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/obsticals/death.uasset" SILENT=true
+[2021.05.25-19.57.07:869][515]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/deathF59A421D481D19322BDDB5A4872B722F.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/obsticals/death.uasset'
+[2021.05.25-19.57.07:881][515]AssetCheck: New page: Asset Save: death
+[2021.05.25-19.57.07:881][515]LogContentValidation: Display: Validating Blueprint /Game/obsticals/death.death
+[2021.05.25-19.57.09:712][700]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.57.09:726][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.57.09:726][700]PIE: New page: PIE session: maze-1 (25 May 2021, 21:57:09)
+[2021.05.25-19.57.09:726][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.57.09:798][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072123s)
+[2021.05.25-19.57.09:799][700]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.57.09:799][700]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020FC5225400), frame # 661700
+[2021.05.25-19.57.09:799][700]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020E94420180), frame # 661700
+[2021.05.25-19.57.09:799][700]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2021.05.25-19.57.09:800][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.073241s)
+[2021.05.25-19.57.09:834][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.57.09:836][700]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.57.09:836][700]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.57.09:836][700]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.57.09:838][700]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.57.09:838][700]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.57.09:923][700]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.57.09:923][700]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.57.09:923][700]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.57.09:923][700]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.57.09:923][700]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.57.09:936][700]LogInit: FAudioDevice initialized.
+[2021.05.25-19.57.09:944][700]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.57.09:954][700]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.57.09
+[2021.05.25-19.57.09:954][700]LogWorld: Bringing up level for play took: 0.009005
+[2021.05.25-19.57.09:954][700]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.05.25-19.57.09:959][700]PIE: Server logged in
+[2021.05.25-19.57.09:960][700]PIE: Play in editor total start time 0.235 seconds.
+[2021.05.25-19.57.34:059][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.57.34:059][576]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.57.34:060][576]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.57.34:061][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.57.34:072][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.57.34:076][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.57.34:127][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.57.34:128][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020E94420180), frame # 664576
+[2021.05.25-19.57.34:128][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020FC5225400), frame # 664576
+[2021.05.25-19.57.34:132][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.05.25-19.57.34:164][577]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2021.05.25-19.58.13:876][220]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2021.05.25-19.58.15:022][347]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.58.15:036][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.58.15:036][347]PIE: New page: PIE session: maze-1 (25 May 2021, 21:58:15)
+[2021.05.25-19.58.15:057][347]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.58.15:134][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076429s)
+[2021.05.25-19.58.15:134][347]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.58.15:134][347]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020FCB6D4C00), frame # 669347
+[2021.05.25-19.58.15:134][347]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020FC4CD2D40), frame # 669347
+[2021.05.25-19.58.15:135][347]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2021.05.25-19.58.15:135][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.077536s)
+[2021.05.25-19.58.15:169][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.58.15:172][347]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.58.15:172][347]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.58.15:172][347]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.58.15:174][347]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.58.15:174][347]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.58.15:257][347]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.58.15:257][347]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.58.15:257][347]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.58.15:257][347]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.58.15:257][347]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.58.15:270][347]LogInit: FAudioDevice initialized.
+[2021.05.25-19.58.15:281][347]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.58.15:289][347]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.58.15
+[2021.05.25-19.58.15:289][347]LogWorld: Bringing up level for play took: 0.007341
+[2021.05.25-19.58.15:289][347]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2021.05.25-19.58.15:294][347]PIE: Server logged in
+[2021.05.25-19.58.15:295][347]PIE: Play in editor total start time 0.261 seconds.
+[2021.05.25-19.58.16:789][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.58.16:789][491]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.58.16:790][491]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.58.16:791][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.58.16:800][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.58.16:804][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.58.16:855][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.58.16:856][491]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020FC4CD2D40), frame # 669491
+[2021.05.25-19.58.16:856][491]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020FCB6D4C00), frame # 669491
+[2021.05.25-19.58.16:860][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.05.25-19.58.16:885][492]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2021.05.25-19.58.19:025][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-19.58.19:060][726]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.05.25-19.58.19:283][726]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-10D8D807B46B63B96EF3F8B9FE1C98817.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap'
+[2021.05.25-19.58.19:309][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1_BuiltData" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset" SILENT=true
+[2021.05.25-19.58.19:504][726]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-1_BuiltDataE6DE9A7E46479099C50DC4B73AA04C14.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset'
+[2021.05.25-19.58.19:522][726]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.25-19.58.19:522][726]LogContentValidation: Display: Validating World /Game/maze-1.maze-1
+[2021.05.25-19.58.19:522][726]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/maze-1_BuiltData.maze-1_BuiltData
+[2021.05.25-19.58.20:713][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.05.25-19.58.22:756][849]LogSlate: Window 'Save Content' being destroyed
+[2021.05.25-19.58.22:774][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/menu_assets/pause_blueprint" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/menu_assets/pause_blueprint.uasset" SILENT=true
+[2021.05.25-19.58.22:788][849]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/pause_blueprint8FD2399545510A8AD0E04BB9847529D9.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/menu_assets/pause_blueprint.uasset'
+[2021.05.25-19.58.22:793][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/sound/true_pause" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/sound/true_pause.uasset" SILENT=true
+[2021.05.25-19.58.22:796][849]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/true_pause5134FC184AB1938769C5648ABA0E5B8B.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/sound/true_pause.uasset'
+[2021.05.25-19.58.22:813][849]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.25-19.58.22:813][849]LogContentValidation: Display: Validating WidgetBlueprint /Game/menu_assets/pause_blueprint.pause_blueprint
+[2021.05.25-19.58.22:813][849]LogContentValidation: Display: Validating SoundWave /Game/sound/true_pause.true_pause
+[2021.05.25-19.58.44:618][443]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.25-19.58.44:632][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.25-19.58.44:632][443]PIE: New page: PIE session: maze-1 (25 May 2021, 21:58:44)
+[2021.05.25-19.58.44:632][443]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_maze-1
+[2021.05.25-19.58.44:704][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.071518s)
+[2021.05.25-19.58.44:705][443]LogAIModule: Creating AISystem for world maze-1
+[2021.05.25-19.58.44:705][443]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020FC39A9200), frame # 672443
+[2021.05.25-19.58.44:705][443]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020FC5296E80), frame # 672443
+[2021.05.25-19.58.44:705][443]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2021.05.25-19.58.44:705][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/maze-1.maze-1 to /Game/UEDPIE_0_maze-1.maze-1 (0.072574s)
+[2021.05.25-19.58.44:739][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.25-19.58.44:741][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.25-19.58.44:741][443]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.25-19.58.44:741][443]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.25-19.58.44:743][443]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.25-19.58.44:743][443]LogAudioMixer: Display: 1: FrontRight
+[2021.05.25-19.58.44:827][443]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.25-19.58.44:827][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.25-19.58.44:827][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.25-19.58.44:827][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.25-19.58.44:828][443]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.25-19.58.44:840][443]LogInit: FAudioDevice initialized.
+[2021.05.25-19.58.44:846][443]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.25-19.58.44:855][443]LogWorld: Bringing World /Game/UEDPIE_0_maze-1.maze-1 up for play (max tick rate 0) at 2021.05.25-20.58.44
+[2021.05.25-19.58.44:855][443]LogWorld: Bringing up level for play took: 0.008245
+[2021.05.25-19.58.44:855][443]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.05.25-19.58.44:860][443]PIE: Server logged in
+[2021.05.25-19.58.44:861][443]PIE: Play in editor total start time 0.23 seconds.
+[2021.05.25-19.59.29:179][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.59.29:179][736]LogWorld: BeginTearingDown for /Game/UEDPIE_0_maze-1
+[2021.05.25-19.59.29:179][736]LogWorld: UWorld::CleanupWorld for maze-1, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-19.59.29:181][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.59.29:187][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.25-19.59.29:192][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-19.59.29:243][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.25-19.59.29:245][736]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020FC5296E80), frame # 677736
+[2021.05.25-19.59.29:245][736]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020FC39A9200), frame # 677736
+[2021.05.25-19.59.29:248][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.25-19.59.29:274][737]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.05.25-20.03.04:089][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.25-20.03.04:126][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.05.25-20.03.04:350][884]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-19ABA48D546FFE227FE0083A80C40060D.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1.umap'
+[2021.05.25-20.03.04:376][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze-1_BuiltData" FILE="../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset" SILENT=true
+[2021.05.25-20.03.04:536][884]LogSavePackage: Moving '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Saved/maze-1_BuiltDataF69798EF452E2760D8262FB8C50A2F98.tmp' to '../../../../../../Users/danie/Documents/FMP YEAR 1/FMP_Rat_Trap/FMP_Rat_Trap/Content/maze-1_BuiltData.uasset'
+[2021.05.25-20.03.04:553][884]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.25-20.03.04:553][884]LogContentValidation: Display: Validating World /Game/maze-1.maze-1
+[2021.05.25-20.03.04:553][884]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/maze-1_BuiltData.maze-1_BuiltData
+[2021.05.25-20.03.05:493][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
